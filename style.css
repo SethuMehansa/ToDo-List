@@ -1,0 +1,100 @@
+.task{
+    font-weight: 700;
+    text-align: left;
+}
+.description{
+    text-align: left;
+    font-weight: 300;
+}
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height: 40px;
+    border-style:hidden;
+    border-radius: 30px;
+background-color: black;
+color: aliceblue;
+
+
+}
+.txtbox{
+
+    border-style: double;
+height: 50px;
+width: 300px;
+border-radius: 20px;
+
+}
+#head{
+text-align: center;
+padding: 20px;
+margin: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 800;
+border-radius: 80px;
+background-color: brown;
+color: white;
+
+}
+.checkbox-wrapper-2 .ikxBAC {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC,
+  .checkbox-wrapper-2 .ikxBAC::after {
+    transition: all 100ms ease-out;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .checkbox-wrapper-2 input[type=checkbox] {
+    cursor: auto;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked {
+    background-color: #39cc08;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked::after {
+    background-color: #fff;
+    left: 13px;
+  }
+
+  .checkbox-wrapper-2 :focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked:hover {
+    background-color: #22db4a;
+  }
